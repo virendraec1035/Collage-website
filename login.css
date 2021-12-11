@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(collage.jpg);
+}
+body span{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.navbar-brand{
+    font-weight: bold;
+    padding: 70px;
+    font-size: 3em;
+    color: #fff;
+    font-style: oblique;
+}
+
+.navbar-nav{
+    padding-left: 100px;
+}
+.menu{
+    height: 600px;
+    width: 1350px;
+}
+
+.nav-link{
+    font-weight: bold;
+color: #fff;
+font-style: oblique;
+margin-left: 10px;
+transition: transform 0.5s;
+padding-left:30Px;
+
+}
+
+.nav-link:hover{
+    background-color: #3498db;
+    border-radius: 50%;
+    transform: translateY(-20%);
+}
+
+.ABC
+{
+    color: rgb(252, 246, 246);
+    text-align:center;
+    
+}
+
+.bg{
+    width: 100%;
+    height:110vh;
+}
+#A{
+    text-align: right;
+}
+.A
+{
+    height: 75px;
+    width: 75px;
+}
+.form-container{
+    border: 1px solid #fff;
+    padding: 30px 40px;
+    margin-top: 20vh;
+    -webkit-box-shadow:-1px 4px 30px 11px blue;
+    -moz-box-shadow:-1px 4px 30px 11px blue;
+    box-shadow: -1px 4px 30px 11px blue;
+}
+.form-group{
+    color: #fff;
+}
+.checkbox{
+    color:#fff;
+}
+.form-text{
+    color: #fff;
+}
